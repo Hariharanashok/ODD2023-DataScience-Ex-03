@@ -37,7 +37,7 @@ Do plots like boxplots,countplot,distribution plot,histogram plot.
 # Program:
 
 # (1) Diabetes.csv
-
+```python
 py
 import pandas as pd
 import numpy as np
@@ -58,10 +58,10 @@ sns.distplot(df["Glucose"])
 sns.histplot(x="Glucose",data = df)
 df.kurtosis()
 sns.boxplot(x="Glucose",data=df)
-
+```
 
 # (2) SuperStore.csv
-
+```python
 python
 df2 = pd.read_csv("/SuperStore.csv")
 df2.head()
@@ -80,7 +80,7 @@ sns.distplot(df2["Postal Code"])
 sns.histplot(x="Postal Code",data = df2)
 df2.kurtosis()
 sns.boxplot(x="Row ID",data=df2)
-
+```
 
 # OUTPUT:
 
