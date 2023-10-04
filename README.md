@@ -26,7 +26,7 @@ Remove the null values from the data.
 
 Mention the datatypes from the data.
 
-## Stepc5:
+## Step 5:
 
 Count the values from the data.
 
