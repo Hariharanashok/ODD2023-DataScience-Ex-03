@@ -10,33 +10,33 @@ Univariate analysis is basically the simplest form to analyze data. Uni means on
 
 # Algorithm:
 
-# Step1:
+## Step 1:
 
 Read the given data.
 
-# Step2:
+## Step 2:
 
 Get the information about the data.
 
-# Step3:
+## Step 3:
 
 Remove the null values from the data.
 
-# Step4:
+## Step 4:
 
 Mention the datatypes from the data.
 
-# Step5:
+## Stepc5:
 
 Count the values from the data.
 
-# Step6:
+## Step 6:
 
 Do plots like boxplots,countplot,distribution plot,histogram plot.
 
 # Program:
 
-# (1) Diabetes.csv
+## (1) Diabetes.csv
 ```python
 py
 import pandas as pd
@@ -60,7 +60,7 @@ df.kurtosis()
 sns.boxplot(x="Glucose",data=df)
 ```
 
-# (2) SuperStore.csv
+## (2) SuperStore.csv
 ```python
 python
 df2 = pd.read_csv("/SuperStore.csv")
@@ -84,7 +84,7 @@ sns.boxplot(x="Row ID",data=df2)
 
 # OUTPUT:
 
-# DIABETES.csv
+## DIABETES.csv
 ![Screenshot 2023-05-29 215840](https://github.com/Nagul71/Ex03-Univariate-Analysis/assets/118661118/9d0add0c-d13f-472f-a69c-e0c57e361d66)
 
 
